@@ -35,6 +35,7 @@ def printBoard(choices,warning):
     print(" ",choices[6]," |"," ",choices[7]," |"," ",choices[8],sep="",end="\n")# choicess needs to be printed here
     print("   |   |   ",sep="",end="\n")
 
+
 def isGameOver(choices):
     for x in range(0,3):
         y = x*3
@@ -68,6 +69,7 @@ choices = []
 winner = False
 playerOne = True
 warning = None
+
 for x in range(0,9):
     choices.append(" ")
 
